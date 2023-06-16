@@ -10,3 +10,8 @@ jadi  kita bisa melakukan lebih dari satu proses sekaligus dalam waktu yang bers
 
  fungsi dalam JavaScript yang digunakan untuk menjadwalkan pemanggilan sebuah kode sekaligus membuatnya berjalan secara asynchronous, yakni setTimeout().
 
+
+
+#ada dua cara atau pola yang digunakan JavaScript dalam menangani proses asynchronous.
+1.Pola Callback
+
