@@ -1,17 +1,27 @@
-# Asynchronous-JavaScript
-Asynchronous-JavaScript
+b. Tipe Data
 
-<!--  -->
+Nilai yang kita tetapkan pada variabel pasti memiliki tipe data. Tipe data merupakan pengklasifikasian data berdasarkan jenisnya.
 
-*Dalam asynchronous process, kita bisa menjalankan proses yang berada di baris kedua tanpa harus menunggu kode pada baris pertama selesai dieksekusi.
-jadi  kita bisa melakukan lebih dari satu proses sekaligus dalam waktu yang bersamaan.
+Berikut beberapa tipe data yang ada di javascript:
 
-<!-- event = kejadian,ketika -->
+1. Undefined
+   Tipe data ini terbentuk ketika sebuah variabel tidak memiliki nilai. Artinya, ketika kita mendeklarasikan variabel tanpa menginisialisasikan nilainya, variabel tersebut menjadi undefined.
 
- fungsi dalam JavaScript yang digunakan untuk menjadwalkan pemanggilan sebuah kode sekaligus membuatnya berjalan secara asynchronous, yakni setTimeout().
+2. Numbers
+Nilai dari tipe data number adalah angka. Variabel bertipe data number dituliskan seperti angka pada umumnya.
 
+ operator aritmatika pada tipe data number:
+ +	Penjumlahan
+ -	Pengurangan
+ /	Pembagian
+ *	Perkalian
+ %	Sisa hasil bagi
+ **	Perpangkatan
+ (++) increment
+  (--) decrement. 
 
-
-#ada dua cara atau pola yang digunakan JavaScript dalam menangani proses asynchronous.
-1.Pola Callback
-
+note:  Operator increment dan decrement digunakan untuk menambahkan atau mengurangi nilai 1 pada nilai variabel yang ada sekarang.
+Operator ini dapat dituliskan sebelum atau sesudah variabel, tetapi hal tersebut bukan berarti sama. 
+Berikut ketentuannya:
+Jika dituliskan setelah variabel (x++), expression akan menghasilkan nilai variabel sebelum ditingkatkan nilainya.
+Jika dituliskan sebelum variabel (++x), expression akan menghasilkan nilai variabel setelah ditingkatkan nilainya.
