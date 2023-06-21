@@ -35,3 +35,18 @@ Untuk nilai di luar Number, kita bisa menggunakan tipe BigInt. Untuk membedakan 
 4. Strings
 
 string yang merupakan sebuah teks. Untuk menetapkan nilai sebagai string pada variabel gunakan tanda petik satu (‘) atau petik dua (“) di antara teksnya. 
+Tidak ada perbedaan antara menggunakan petik satu atau petik dua. Anda dapat menggunakan tanda petik secara bergantian, khususnya jika Anda memiliki teks yang mengandung tanda petik.
+
+5. Boolean
+Boolean hanya memiliki dua nilai, yaitu true atau false. 
+ Tipe data ini menjadi kunci utama dalam penentuan logika.
+ Untuk menetapkan nilai boolean pada variabel, gunakan keyword true atau false
+
+
+ 6. Null
+  Serupa dengan undefined, namun null perlu diinisialisasikan pada variabel.
+ Null biasa digunakan sebagai nilai sementara pada variabel, tapi sebenarnya nilai tersebut “tidak ada”.
+ Terkadang kita perlu membuat sebuah variabel, namun kita belum memerlukan nilai apa-apa dan tidak ingin terikat oleh tipe data apa pun.
+
+ 7. Symbol
+  Symbol adalah tipe data baru yang dikenalkan pada ES6. Tipe data Symbol digunakan untuk menunjukkan identifier yang unik.
