@@ -25,3 +25,13 @@ Operator ini dapat dituliskan sebelum atau sesudah variabel, tetapi hal tersebut
 Berikut ketentuannya:
 Jika dituliskan setelah variabel (x++), expression akan menghasilkan nilai variabel sebelum ditingkatkan nilainya.
 Jika dituliskan sebelum variabel (++x), expression akan menghasilkan nilai variabel setelah ditingkatkan nilainya.
+
+
+3. BigInt
+
+ipe data “Number” hanya mencakup nilai dari -(253 - 1) hingga (253 - 1).
+Untuk nilai di luar Number, kita bisa menggunakan tipe BigInt. Untuk membedakan tipe BigInt dan Number, tambahkan karakter n di akhir angka. 
+
+4. Strings
+
+string yang merupakan sebuah teks. Untuk menetapkan nilai sebagai string pada variabel gunakan tanda petik satu (‘) atau petik dua (“) di antara teksnya. 
