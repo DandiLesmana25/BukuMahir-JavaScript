@@ -50,3 +50,56 @@ Boolean hanya memiliki dua nilai, yaitu true atau false.
 
  7. Symbol
   Symbol adalah tipe data baru yang dikenalkan pada ES6. Tipe data Symbol digunakan untuk menunjukkan identifier yang unik.
+
+
+
+c. Operator
+   Operator dalam bahasa pemrograman sendiri adalah simbol yang memberi tahu interpreter untuk melakukan operasi seperti matematika, relasional, atau logika untuk memberikan hasil tertentu.
+
+1. Assignment Operator   
+   Operator ini digunakan untuk memberikan nilai pada variabel.
+
+ shortcut dalam menentukan nilai :
+
+x += y; // artinya -> x = x + y;
+x -= y; // artinya -> x = x - y;
+x *= y; // artinya -> x = x * y;
+x /= y; // artinya -> x = x / y;
+x %= y; // artinya -> x = x % y;   
+
+2. Comparison Operator
+
+operator komparasi sebagai logika dasar dalam membandingkan nilai pada JavaScript.
+
+Terdapat serangkaian karakter khusus yang disebut dengan operator pembanding/komparasi yang dapat mengevaluasi dan membandingkan dua nilai:
+
+Operator. 
+== (Membandingkan kedua nilai apakah sama (tidak identik).)
+!= (Membandingkan kedua nilai apakah tidak sama (tidak identik).)
+=== (Membandingkan kedua nilai apakah identik.)
+!== (Membandingkan kedua nilai apakah tidak identik.)
+>   (Membandingkan dua nilai apakah nilai pertama lebih dari nilai kedua.)
+>= 	(Membandingkan dua nilai apakah nilai pertama lebih atau sama dengan nilai kedua.)
+
+< (Membandingkan dua nilai apakah nilai pertama kurang dari nilai kedua.)
+
+<= (Membandingkan dua nilai apakah nilai pertama kurang atau sama dengan nilai kedua)
+
+Perbedaan antara “sama” (==) dan “identik” (===).
+- Jika kita ingin membandingkan hanya dari kesamaan nilainya kita bisa gunakan ==
+-  jika kita ingin membandingkan dengan memperhatikan tipe datanya kita gunakan ===.
+
+
+3. Logical Operator
+
+. Dengan logical operator, kita dapat menggunakan kombinasi dari dua nilai boolean atau bahkan lebih dalam menetapkan logika.
+
+logical operator dan fungsinya:
+
+# && 
+Operator dan (and). Logika akan menghasilkan nilai true apabila semua kondisi terpenuhi (bernilai true).
+# ||
+ Operator atau (or). Logika akan menghasilkan nilai true apabila ada salah satu kondisi terpenuhi (bernilai true).
+
+# !
+Operator tidak (not). Digunakan untuk membalikkan suatu kondisi.
