@@ -33,3 +33,27 @@ console.log('======contoh 4============')
 const userRole = "admin";
 const isAdmin = userRole === "admin" ? "user adalah admin" : "user bukan admin";
 console.log(isAdmin);
+
+
+console.log('====== Truthy y ===========')
+
+const salam = "Hello";
+if (salam) {
+    console.log("salam adalah truthy"); // Output: value3 adalah truthy
+  }
+
+console.log('======Falsy ===========')
+
+let name = "";
+
+if (name) {
+    console.log(`Halo, ${name}`);
+} else {
+    console.log("Nama masih kosong");
+}
+
+
+const value6 = "";
+if (!value6) {                 //jika tidak ada valuenya
+    console.log("value6 adalah falsy"); // Output: value6 adalah falsy
+  }
