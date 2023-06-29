@@ -1,4 +1,4 @@
-b. Tipe Data
+# b. Tipe Data
 
 Nilai yang kita tetapkan pada variabel pasti memiliki tipe data. Tipe data merupakan pengklasifikasian data berdasarkan jenisnya.
 
@@ -53,7 +53,7 @@ Boolean hanya memiliki dua nilai, yaitu true atau false.
 
 
 
-c. Operator
+# c. Operator
    Operator dalam bahasa pemrograman sendiri adalah simbol yang memberi tahu interpreter untuk melakukan operasi seperti matematika, relasional, atau logika untuk memberikan hasil tertentu.
 
 1. Assignment Operator   
@@ -103,3 +103,14 @@ Operator dan (and). Logika akan menghasilkan nilai true apabila semua kondisi te
 
 # !
 Operator tidak (not). Digunakan untuk membalikkan suatu kondisi.
+
+
+# D. If/Else Statement
+Statement if akan menguji suatu kondisi. Jika kondisi bernilai true, maka blok kode di dalamnya akan dijalankan. Sebaliknya, jika bernilai false, maka proses yang ditentukan akan dilewatkan. 
+
+# D. ternary operator atau conditional expressions.
+Selain if statement di atas, JavaScript juga mendukung ternary operator atau conditional expressions. Dengan ini, kita bisa menuliskan if-else statement hanya dalam satu baris.
+
+Ternary operator membutuhkan tiga operand. Sebelum tanda tanya (?) berisi kondisi yang ingin kita evaluasi. Kemudian diikuti dengan expression apabila nilai kondisinya benar sebelum tanda titik dua. Terakhir adalah expression yang dieksekusi ketika kondisinya salah. Karena merupakan conditional expression, maka operand kedua dan ketiga harus mengembalikan nilai.
+( namaVariabel = kondisi ? nilaiJikaTrue : nilaiJikaFalse;)
+
