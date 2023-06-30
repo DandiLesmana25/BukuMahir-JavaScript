@@ -125,7 +125,7 @@ Di dalam if statement kita perlu memasukkan expression yang akan dievaluasi. Umu
 
  
 
-**# F. Switch Case Statement**
+** # F. Switch Case Statement **
 
 switch statement untuk melakukan pengecekan banyak kondisi dengan lebih mudah dan ringkas.
 
@@ -146,3 +146,32 @@ switch (expression) {
 -setiap kondisi yang mungkin terjadi, kita masukkan keyword** case **diikuti dengan nilai yang valid. 
 -Jika kondisi pada **case** sama dengan **variabel pada switch**, maka** blok kode setelah titik dua (:) **akan **dijalankan**. Keyword break digunakan untuk keluar dari proses switch
 -Terdapat satu case bernama **default** yang memiliki fungsi yang sama dengan keyword else pada control flow if-else. Jika tidak ada nilai yang sama dengan variabel pada switch, maka blok kode ini akan dijalankan.
+
+**# g. looping**
+-for(inisialisasi variabel; test kondisi; perubahan nilai variabel) {
+  // do something
+}
+
+-For of loop
+For of mulai hadir pada ECMAScript 2015 (ES6). Cara ini jauh lebih sederhana dan modern dibanding for loop biasa.
+ Sintaks dasar dari for of loop adalah:
+ for(arrayItem of myArray) {
+  // do something
+}
+
+for of tidak membutuhkan banyak statement untuk melakukan looping pada array.
+for...of digunakan untuk mengiterasi melalui elemen-elemen dalam sebuah objek yang dapat di-iterasi, seperti array atau string. Ini menyediakan cara yang lebih sederhana dan bersih untuk mengulang elemen-elemen tersebut.
+for (variable of iterable) {
+  // Blok kode yang akan diulang
+}
+
+variable: Variabel yang digunakan untuk menyimpan nilai setiap elemen dalam setiap iterasi.
+iterable: Objek yang dapat di-iterasi, seperti array, string, atau objek lain yang telah diimplementasikan metode 
+
+-while
+instruksi while mengevaluasi ekspresi boolean dan menjalankan kode di dalam blok while ketika bernilai true.
+while digunakan untuk mengulang kode selama kondisi yang diberikan bernilai true. 
+
+-do while
+do-while akan mengevaluasi boolean expression setelah blok kodenya berjalan. Ini artinya kode di dalam do-while akan dijalankan setidaknya satu kali.
+
