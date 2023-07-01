@@ -50,3 +50,18 @@ while (count < 4 && indexs < product.length){
     indexs++;
 }
 
+
+// console.log('=================infinite loop========================')
+
+// let infinite = 0;
+
+// while (infinite <= 5) {
+//     console.log(infinite);
+// }
+
+
+// infinite pakai for
+
+// for (let infinite = 1; infinite <= 5; infinite=1 ) {
+//     console.log(infinite);
+// }
