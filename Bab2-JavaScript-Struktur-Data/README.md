@@ -31,3 +31,25 @@ Sedangkan untuk mengeluarkan data atau elemen terakhir dari array, kita bisa gun
  Spread operator dituliskan dengan tiga titik (...)
  Spread operator dapat digunakan untuk menggabungkan dua buah array ke dalam array baru.
 Selain array, spread operator juga bisa digunakan untuk object literals. Hal ini memungkinkan kita dapat menggabungkan beberapa object dengan kode yang lebih ringkas.
+
+# d. Destructuring  object
+Destructuring dalam JavaScript merupakan sintaksis yang dapat mengeluarkan(extract) nilai dari objek  ke variabel terpisah dengan sintaksis yang lebih ringkas. Ini sangat berguna ketika Anda ingin mengakses properti-properti objek secara mudah.
+Penulisan sintaksis destructuring object pada ES6 menggunakan object literal ({ }) di sisi kiri dari operator assignment.
+
+# e. Destructuring  array
+Destructuring Array adalah fitur dalam JavaScript yang memungkinkan Anda untuk mengeluarkan (extract) nilai-nilai dari array ke variabel terpisah dengan sintaksis yang lebih ringkas. Ini sangat berguna ketika Anda ingin mengakses elemen-elemen array secara mudah
+Destructuring array serupa dengan destructuring object. Object menggunakan tanda kurung kurawal { } sedangkan array menggunakan tanda kurung siku [ ]. Perbedaan lainnya adalah destructuring array bekerja berdasarkan posisi daripada penamaan propertinya.
+
+# f. map
+
+Map adalah tipe data yang menyimpan koleksi data dengan format key-value layaknya Object. Yang membedakan adalah Map memperbolehkan key dengan tipe data apa pun, dibandingkan Object yang hanya mengizinkan key bertipe String atau Symbol.
+Untuk mendefinisikan Map gunakan constructor seperti di bawah ini:
+const myMap = new Map();
+
+Ketika sudah membuat objek Map, kita bisa mendapatkan nilainya berdasarkan key tertentu dengan metode get(). Lalu, untuk menambahkan pasangan key-value baru gunakan metode set().
+
+# g. set
+Struktur data yang akan kita bahas berikutnya adalah Set. Set sederhananya merupakan kumpulan nilai (set of values). Hal yang membedakan Set dengan struktur data yang lain adalah data pada Set tidak berurutan dan juga tidak diindeks. Selain itu, data di dalam Set juga bersifat unik dan tidak ada duplikasi. 
+Untuk menambahkan data ke dalam Set kita bisa memanfaatkan fungsi:
+ add().
+ Fungsi add() hanya menerima satu argumen. Jika Anda memasukkan array, maka array tersebut akan dianggap sebagai satu elemen sendiri. Nilai yang duplikat akan diabaikan.
