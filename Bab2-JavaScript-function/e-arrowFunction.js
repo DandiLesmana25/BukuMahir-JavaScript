@@ -1,13 +1,3 @@
-// function expression
-// const sayHello = (greet) => {
-//     console.log(`${greet}!`)
-//   }
-   
-//   const sayName = (name) => {
-//     console.log(`Nama saya ${name}`)
-//   }
-
-
 const sayHello = (great= "halohhh") => {
     console.log(`${great} !`)
 }
@@ -32,4 +22,3 @@ console.log(multiply(3,4));
 console.log('=============================');
 const introduce = name => console.log(`Nama saya ${name}`);
 introduce("Leia");
-
