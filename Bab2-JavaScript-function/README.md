@@ -50,5 +50,7 @@ Jika variabel didefinisikan di dalam fungsi, maka variabel bersifat lokal dan ca
 jika kita lupa menuliskan keyword let, const, atau var pada script ketika membuat sebuah variabel, maka variabel tersebut akan menjadi global.
 
 # Closure
+Closure adalah konsep yang penting dalam JavaScript yang terkait dengan lingkup variabel dan fungsi. Closure terjadi ketika sebuah fungsi memiliki akses ke variabel-variabel yang berada di luar lingkupnya, termasuk variabel-variabel yang sudah tidak ada di dalam lingkup eksekusi normalnya.
 
-Sebelumnya kita telah tahu bahwa fungsi dapat didefinisikan dalam lingkup global atau di dalam fungsi lain. Suatu fungsi yang dapat mengakses variabel di dalam lexical scope-nya disebut dengan closure. Lexical scope berarti pada sebuah fungsi bersarang, fungsi yang berada di dalam memiliki akses ke variabel di lingkup induknya.
+Sebelumnya kita telah tahu bahwa fungsi dapat didefinisikan dalam lingkup global atau di dalam fungsi lain. 
+Suatu fungsi yang dapat mengakses variabel di dalam lexical scope-nya disebut dengan closure. Lexical scope berarti pada sebuah fungsi bersarang, fungsi yang berada di dalam memiliki akses ke variabel di lingkup induknya.
