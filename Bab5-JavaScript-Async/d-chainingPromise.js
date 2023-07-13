@@ -1,8 +1,3 @@
-// const { rejects } = require("assert");
-// const { resolve } = require("path");
-
-const { error } = require("console");
-
 function withDrawMoney(amount) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
